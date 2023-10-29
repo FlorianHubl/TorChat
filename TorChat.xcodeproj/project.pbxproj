@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174E20422AEE96D100D25636 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174E20412AEE96D100D25636 /* MessageView.swift */; };
+		17E2AA472AEEBFED00C0CFD6 /* TorChatIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2AA462AEEBFED00C0CFD6 /* TorChatIcon.png */; };
+		17FC6F672AEE7BAD000597A6 /* TorChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC6F662AEE7BAD000597A6 /* TorChatApp.swift */; };
+		17FC6F692AEE7BAD000597A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC6F682AEE7BAD000597A6 /* ContentView.swift */; };
+		17FC6F6B2AEE7BAE000597A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FC6F6A2AEE7BAE000597A6 /* Assets.xcassets */; };
+		17FC6F6F2AEE7BAE000597A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FC6F6E2AEE7BAE000597A6 /* Preview Assets.xcassets */; };
+		17FC6F772AEE7BD1000597A6 /* Telegraph in Frameworks */ = {isa = PBXBuildFile; productRef = 17FC6F762AEE7BD1000597A6 /* Telegraph */; };
+		17FC6F7A2AEE7BE3000597A6 /* SwiftTor in Frameworks */ = {isa = PBXBuildFile; productRef = 17FC6F792AEE7BE3000597A6 /* SwiftTor */; };
+		17FC6F7C2AEE7D90000597A6 /* TorChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC6F7B2AEE7D90000597A6 /* TorChatView.swift */; };
+		17FC6F7E2AEE7DF8000597A6 /* TorQRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC6F7D2AEE7DF8000597A6 /* TorQRView.swift */; };
+		17FC6F812AEE7E08000597A6 /* QRKit in Frameworks */ = {isa = PBXBuildFile; productRef = 17FC6F802AEE7E08000597A6 /* QRKit */; };
+		17FC6F832AEE7E81000597A6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC6F822AEE7E81000597A6 /* InfoView.swift */; };
+		17FC6F862AEE7F8D000597A6 /* LocalStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 17FC6F852AEE7F8D000597A6 /* LocalStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		174E203D2AEE840700D25636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		174E20412AEE96D100D25636 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		17E2AA462AEEBFED00C0CFD6 /* TorChatIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TorChatIcon.png; sourceTree = "<group>"; };
+		17E2AA482AEEBFF600C0CFD6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		17FC6F632AEE7BAD000597A6 /* TorChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FC6F662AEE7BAD000597A6 /* TorChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorChatApp.swift; sourceTree = "<group>"; };
+		17FC6F682AEE7BAD000597A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17FC6F6A2AEE7BAE000597A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17FC6F6C2AEE7BAE000597A6 /* TorChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TorChat.entitlements; sourceTree = "<group>"; };
+		17FC6F6E2AEE7BAE000597A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17FC6F7B2AEE7D90000597A6 /* TorChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorChatView.swift; sourceTree = "<group>"; };
+		17FC6F7D2AEE7DF8000597A6 /* TorQRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorQRView.swift; sourceTree = "<group>"; };
+		17FC6F822AEE7E81000597A6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17FC6F602AEE7BAD000597A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FC6F862AEE7F8D000597A6 /* LocalStorage in Frameworks */,
+				17FC6F812AEE7E08000597A6 /* QRKit in Frameworks */,
+				17FC6F7A2AEE7BE3000597A6 /* SwiftTor in Frameworks */,
+				17FC6F772AEE7BD1000597A6 /* Telegraph in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17FC6F5A2AEE7BAD000597A6 = {
+			isa = PBXGroup;
+			children = (
+				17E2AA482AEEBFF600C0CFD6 /* README.md */,
+				17E2AA462AEEBFED00C0CFD6 /* TorChatIcon.png */,
+				17FC6F652AEE7BAD000597A6 /* TorChat */,
+				17FC6F642AEE7BAD000597A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17FC6F642AEE7BAD000597A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17FC6F632AEE7BAD000597A6 /* TorChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17FC6F652AEE7BAD000597A6 /* TorChat */ = {
+			isa = PBXGroup;
+			children = (
+				174E203D2AEE840700D25636 /* Info.plist */,
+				17FC6F662AEE7BAD000597A6 /* TorChatApp.swift */,
+				17FC6F682AEE7BAD000597A6 /* ContentView.swift */,
+				17FC6F7D2AEE7DF8000597A6 /* TorQRView.swift */,
+				17FC6F822AEE7E81000597A6 /* InfoView.swift */,
+				17FC6F7B2AEE7D90000597A6 /* TorChatView.swift */,
+				174E20412AEE96D100D25636 /* MessageView.swift */,
+				17FC6F6A2AEE7BAE000597A6 /* Assets.xcassets */,
+				17FC6F6C2AEE7BAE000597A6 /* TorChat.entitlements */,
+				17FC6F6D2AEE7BAE000597A6 /* Preview Content */,
+			);
+			path = TorChat;
+			sourceTree = "<group>";
+		};
+		17FC6F6D2AEE7BAE000597A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17FC6F6E2AEE7BAE000597A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17FC6F622AEE7BAD000597A6 /* TorChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FC6F722AEE7BAE000597A6 /* Build configuration list for PBXNativeTarget "TorChat" */;
+			buildPhases = (
+				17FC6F5F2AEE7BAD000597A6 /* Sources */,
+				17FC6F602AEE7BAD000597A6 /* Frameworks */,
+				17FC6F612AEE7BAD000597A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorChat;
+			packageProductDependencies = (
+				17FC6F762AEE7BD1000597A6 /* Telegraph */,
+				17FC6F792AEE7BE3000597A6 /* SwiftTor */,
+				17FC6F802AEE7E08000597A6 /* QRKit */,
+				17FC6F852AEE7F8D000597A6 /* LocalStorage */,
+			);
+			productName = TorChat;
+			productReference = 17FC6F632AEE7BAD000597A6 /* TorChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17FC6F5B2AEE7BAD000597A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					17FC6F622AEE7BAD000597A6 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 17FC6F5E2AEE7BAD000597A6 /* Build configuration list for PBXProject "TorChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17FC6F5A2AEE7BAD000597A6;
+			packageReferences = (
+				17FC6F752AEE7BD1000597A6 /* XCRemoteSwiftPackageReference "Telegraph" */,
+				17FC6F782AEE7BE3000597A6 /* XCRemoteSwiftPackageReference "SwiftTor" */,
+				17FC6F7F2AEE7E08000597A6 /* XCRemoteSwiftPackageReference "QRKit" */,
+				17FC6F842AEE7F8D000597A6 /* XCRemoteSwiftPackageReference "LocalStorage" */,
+			);
+			productRefGroup = 17FC6F642AEE7BAD000597A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17FC6F622AEE7BAD000597A6 /* TorChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17FC6F612AEE7BAD000597A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E2AA472AEEBFED00C0CFD6 /* TorChatIcon.png in Resources */,
+				17FC6F6F2AEE7BAE000597A6 /* Preview Assets.xcassets in Resources */,
+				17FC6F6B2AEE7BAE000597A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17FC6F5F2AEE7BAD000597A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174E20422AEE96D100D25636 /* MessageView.swift in Sources */,
+				17FC6F7C2AEE7D90000597A6 /* TorChatView.swift in Sources */,
+				17FC6F7E2AEE7DF8000597A6 /* TorQRView.swift in Sources */,
+				17FC6F692AEE7BAD000597A6 /* ContentView.swift in Sources */,
+				17FC6F832AEE7E81000597A6 /* InfoView.swift in Sources */,
+				17FC6F672AEE7BAD000597A6 /* TorChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17FC6F702AEE7BAE000597A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17FC6F712AEE7BAE000597A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		17FC6F732AEE7BAE000597A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TorChat/TorChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TorChat/Preview Content\"";
+				DEVELOPMENT_TEAM = L8V639LZ4B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TorChat/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FlorianHubl.TorChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17FC6F742AEE7BAE000597A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TorChat/TorChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TorChat/Preview Content\"";
+				DEVELOPMENT_TEAM = L8V639LZ4B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TorChat/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FlorianHubl.TorChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17FC6F5E2AEE7BAD000597A6 /* Build configuration list for PBXProject "TorChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FC6F702AEE7BAE000597A6 /* Debug */,
+				17FC6F712AEE7BAE000597A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17FC6F722AEE7BAE000597A6 /* Build configuration list for PBXNativeTarget "TorChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FC6F732AEE7BAE000597A6 /* Debug */,
+				17FC6F742AEE7BAE000597A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17FC6F752AEE7BD1000597A6 /* XCRemoteSwiftPackageReference "Telegraph" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Building42/Telegraph";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.30.0;
+			};
+		};
+		17FC6F782AEE7BE3000597A6 /* XCRemoteSwiftPackageReference "SwiftTor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FlorianHubl/SwiftTor";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		17FC6F7F2AEE7E08000597A6 /* XCRemoteSwiftPackageReference "QRKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FlorianHubl/QRKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		17FC6F842AEE7F8D000597A6 /* XCRemoteSwiftPackageReference "LocalStorage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FlorianHubl/LocalStorage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17FC6F762AEE7BD1000597A6 /* Telegraph */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17FC6F752AEE7BD1000597A6 /* XCRemoteSwiftPackageReference "Telegraph" */;
+			productName = Telegraph;
+		};
+		17FC6F792AEE7BE3000597A6 /* SwiftTor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17FC6F782AEE7BE3000597A6 /* XCRemoteSwiftPackageReference "SwiftTor" */;
+			productName = SwiftTor;
+		};
+		17FC6F802AEE7E08000597A6 /* QRKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17FC6F7F2AEE7E08000597A6 /* XCRemoteSwiftPackageReference "QRKit" */;
+			productName = QRKit;
+		};
+		17FC6F852AEE7F8D000597A6 /* LocalStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17FC6F842AEE7F8D000597A6 /* XCRemoteSwiftPackageReference "LocalStorage" */;
+			productName = LocalStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 17FC6F5B2AEE7BAD000597A6 /* Project object */;
+}
