@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		174E20422AEE96D100D25636 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174E20412AEE96D100D25636 /* MessageView.swift */; };
-		17E2AA472AEEBFED00C0CFD6 /* TorChatIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2AA462AEEBFED00C0CFD6 /* TorChatIcon.png */; };
 		17FC6F672AEE7BAD000597A6 /* TorChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC6F662AEE7BAD000597A6 /* TorChatApp.swift */; };
 		17FC6F692AEE7BAD000597A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC6F682AEE7BAD000597A6 /* ContentView.swift */; };
 		17FC6F6B2AEE7BAE000597A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FC6F6A2AEE7BAE000597A6 /* Assets.xcassets */; };
@@ -25,7 +24,7 @@
 /* Begin PBXFileReference section */
 		174E203D2AEE840700D25636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		174E20412AEE96D100D25636 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
-		17E2AA462AEEBFED00C0CFD6 /* TorChatIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TorChatIcon.png; sourceTree = "<group>"; };
+		1762DDFD2AEED45C002FF9EA /* TorChatIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TorChatIcon.png; sourceTree = "<group>"; };
 		17E2AA482AEEBFF600C0CFD6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		17FC6F632AEE7BAD000597A6 /* TorChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FC6F662AEE7BAD000597A6 /* TorChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorChatApp.swift; sourceTree = "<group>"; };
@@ -57,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				17E2AA482AEEBFF600C0CFD6 /* README.md */,
-				17E2AA462AEEBFED00C0CFD6 /* TorChatIcon.png */,
+				1762DDFD2AEED45C002FF9EA /* TorChatIcon.png */,
 				17FC6F652AEE7BAD000597A6 /* TorChat */,
 				17FC6F642AEE7BAD000597A6 /* Products */,
 			);
@@ -166,7 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E2AA472AEEBFED00C0CFD6 /* TorChatIcon.png in Resources */,
 				17FC6F6F2AEE7BAE000597A6 /* Preview Assets.xcassets in Resources */,
 				17FC6F6B2AEE7BAE000597A6 /* Assets.xcassets in Resources */,
 			);
